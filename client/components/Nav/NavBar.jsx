@@ -9,12 +9,16 @@ const Nav = styled.nav`
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
+  background-color: #252834;
 
   .logo {
     padding: 15px 0;
+  }
+  @media (max-width: 768px) {
     letter-spacing: 5px;
     font-family: sans-serif;
     font-size: 22px;
+    color: #818b63;
   }
 `;
 
