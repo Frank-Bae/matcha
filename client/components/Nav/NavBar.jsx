@@ -9,11 +9,13 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   background-color: #252834;
+  color: #818b63;
 
   .logo {
     padding: 15px 0;
   }
   @media (max-width: 768px) {
+    position: fixed;
     letter-spacing: 5px;
     font-family: sans-serif;
     font-size: 22px;

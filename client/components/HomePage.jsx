@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const Carousel = styled.div`
   img {
-  width: 375px;
-  height: 400px;
+  height: 500px;
+  width: 100%;
   object-fit: cover;
 }
 `;
