@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from './HomePage';
+import HomePage from './Home/HomePage';
 import Navbar from './Nav/Navbar';
 
 export default class App extends React.Component {
