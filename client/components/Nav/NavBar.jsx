@@ -12,6 +12,9 @@ const Nav = styled.nav`
 
   .logo {
     padding: 15px 0;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    font-size: 22px;
   }
 `;
 
@@ -19,7 +22,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-        Nav Bar
+        Matcha
       </div>
       <Burger />
     </Nav>
